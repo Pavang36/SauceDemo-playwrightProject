@@ -1,0 +1,12 @@
+[
+  {
+    "type": "valid",
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  {
+    "type": "invalid",
+    "username": "invalid_user",
+    "password": "wrong_password"
+  }
+]
