@@ -9,7 +9,7 @@ export default defineConfig({
 
   use: {
     baseURL: 'https://www.saucedemo.com/',
-    headless: true,
+    headless: false,
     launchOptions: {
       slowMo: 1000 
   },
