@@ -9,7 +9,7 @@ export default defineConfig({
 
   use: {
     baseURL: 'https://www.saucedemo.com/',
-    headless: true,
+    headless: false,
     launchOptions: {
       slowMo: 1000 
   },
@@ -24,7 +24,8 @@ export default defineConfig({
     ['html', { 
       outputFolder: 'playwright-report',
       open: 'never' 
-    }]
+    }],
+    ['allure-playwright']
   ],
 
    projects: [
