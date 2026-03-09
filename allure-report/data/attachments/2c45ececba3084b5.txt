@@ -1,4 +1,0 @@
-Cart Products: {
-  product_names: 'Sauce Labs Bolt T-Shirt | Sauce Labs Bike Light',
-  product_prices: '$15.99 | $9.99'
-}
