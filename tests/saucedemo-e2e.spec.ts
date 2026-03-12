@@ -81,7 +81,10 @@ test.describe('SauceDemo End-to-End Flow - Multi User Single Test', () => {
     });
 
     await overview.clickFinish();
+    await complete.validateSuccessMessage();
     writeFinalExcel(excelRows, test.info().project.name);
+
+
 
   });
 
